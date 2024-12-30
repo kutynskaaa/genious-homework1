@@ -1,0 +1,115 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2'); 
+  }
+
+:root{
+    --color-brand:#2B7FFF;
+    --color-primary-dark:#011C44;
+    --color-primary-light:#FFFFFF;
+    --color-confident: #747272;
+}
+/*base*/
+body{
+    color: var(--color-primary-dark);
+    font-family: "Roboto" ,  sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    }
+ul{
+    list-style: none;
+}
+/*link-section*/
+.link{
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    font-size: 18px;
+}
+.link:hover{
+    color: var(--color-brand);
+    font-weight: 700;
+}
+/*button-section*/
+.button{
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    border-radius: 32px;
+    border: var(--color-brand);
+    width: 219px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-last{
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    border-radius: 32px;
+    border: var(--color-brand);
+    width: 281px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+/*hero-section*/
+.hero-title{
+    color: var(--color-brand);
+    font-size: 140px;
+    font-weight: 700;
+    text-align: center;
+}
+.hero-text{
+    font-size: 12px;
+    text-align: center;
+}
+/*title-section*/
+.title{
+    font-size: 64px;
+    font-weight: 700;
+}
+.title-span{
+    color: var(--color-brand);
+}
+/*about-us-section*/
+.about-us-span-text{
+    font-weight: 600;
+}
+/*benefits-section*/
+.benefits-text{
+    font-size: 18px;
+    text-align: center;
+}
+/*kontacts-section*/
+.kontacts-text-span{
+    color: var(--color-brand);
+}
+.confident{
+    color: var(--color-confident);
+    font-size: 12px;
+}
+.link-confident{
+    color: var(--color-confident);
+    font-size: 12px;
+    text-decoration: none;
+}
+.link-confident:hover{
+    text-decoration-line: underline;
+}
